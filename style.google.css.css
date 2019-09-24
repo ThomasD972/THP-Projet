@@ -1,0 +1,83 @@
+html
+{height: 100%}
+
+body
+{
+	display: flex;
+	min-height: 100%;
+	margin: 0;
+	padding: 0
+	justify-content: space-between;
+	flex-flow: column;
+	position: relative;
+	font-family: Verdana, Georgia, sans-serif;
+}
+
+
+.nav
+{
+	display: flex;
+	justify-content: flex-end;
+	word-spacing: 4px;
+	padding: 10px;
+}
+#section
+{
+	
+	justify-content: center;
+	
+}
+.photo
+{display: flex;
+	justify-content: center;
+}
+
+.recherche
+{
+	display: flex;
+	justify-content: center;
+	border: 0.5px blue solid;
+	border-radius: 10px;
+	width: 25%;
+	margin: auto;
+	padding-bottom: 1.3px;
+	padding-top: 1.5px;
+	box-shadow: 2px 2px 0.5px blue;
+
+}
+.button
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 8px;
+	border: none;
+	 
+	
+}
+#search
+{border:none;
+background-image: url(img/loupe.png) height:0.5px width:0.5px;}
+
+#bas
+{
+	position:absolute; bottom: 0; left: 0; right: 0;
+}
+.pays
+{
+	border: 0.5px grey solid;
+	background-color: #F5F5F5;
+	padding: 10px;
+}
+.info
+{	float: left; word-spacing: 4px; 
+	padding: 10px;	border: 0.5px grey solid;
+	border-right: none;
+	border-top: none;
+}
+.legale
+{	float: right; word-spacing: 4px; 
+	padding: 10px;	border: 0.5px grey solid;;
+	border-left: none;
+	border-top: none;}
+
+}
